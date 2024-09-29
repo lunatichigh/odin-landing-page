@@ -136,18 +136,21 @@ ul {
 .logo-text {
     color: #F9FAF8;
     font-size: 24px;
+    font-weight: 900;
 }
 
 /******************** HERO STYLES ****************************/
 .hero {
     background-color: #1F2937;
     padding: 24px;
+    padding-bottom: 100px;
     display: flex;
     width: 100%;
     flex: 1;
     justify-content: center;
     align-items: center;
     gap: 100px;
+    margin-bottom: 50px;
 }
 .hero-text {
     max-width: 500px;
@@ -163,7 +166,7 @@ ul {
     text-wrap: wrap;
 }
 .image-placeholder {
-    background-color: white;
+    background-color: grey;
     padding: 100px;
     display: flex;
 }
@@ -184,6 +187,7 @@ ul {
     width: 100%;
     justify-content: center;
     align-items: center;
+
 }
 .information-title {
     color: #1F2937;
@@ -198,10 +202,10 @@ ul {
     gap: 16px;
 }
 .image-box {
-    height: 100px;
-    width: 100px;
-    border: 1px solid red;
-    border-radius: 5px;
+    height: 180px;
+    width: 180px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
 }
 .information-text {
     text-align: center;
@@ -212,11 +216,13 @@ ul {
     justify-content: center;
     align-items: center;
     max-width: 200px;
+    margin-bottom: 50px;
 }
 /******************** QUOTE STYLE ****************************/
 .quote {
     background-color: #E5E7EB;
     padding: 24px;
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -234,6 +240,7 @@ q {
     font-style: normal;
     font-weight: bold;
     margin-left: 525px;
+    margin-bottom: 50px;
 }
 /******************** CTA STYLE ******************************/
 .cta {
@@ -242,6 +249,8 @@ q {
     height: 100%;
     width: 100%;
     justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .cta-box {
     background-color: #3882F6;
