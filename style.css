@@ -124,7 +124,6 @@ header {
     padding: 24px;
     display: flex;
     justify-content: space-around;
-    gap: 215px;
 }
 ul {
     display: flex;
@@ -148,7 +147,9 @@ ul {
     align-items: center;
     gap: 60px;
 }
-
+.hero-text {
+    max-width: 500px;
+}
 .awesome-text {
     color: #F9FAF8;
     font-size: 60px; 
@@ -222,7 +223,7 @@ ul {
     text-wrap: wrap;
 }
 q {
-    max-width: 900px;
+    max-width: 1000px;
 }
 .quote-author {
     font-style: normal;
@@ -236,20 +237,16 @@ q {
     height: 100%;
     width: 100%;
     justify-content: center;
-    align-items: center;
 }
 .cta-box {
     background-color: #3882F6;
     color: #F9FAF8;
     display: flex;
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 275px;
+    padding: 100px;
     border-radius: 5px;
-    gap: 100px;
 
 }
 .cta-button {
